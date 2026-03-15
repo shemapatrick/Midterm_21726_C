@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 console.log("Lawfirm API is starting...");
 // ===============================
- DATABASE CONNECTION
+ // DATABASE CONNECTION
 // ===============================
 const db = mysql.createConnection({
     host: "localhost",
