@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-
+console.log("Lawfirm API is starting...");
 // ===============================
  DATABASE CONNECTION
 // ===============================
